@@ -6,9 +6,14 @@
  - If it fails, bail.
  - If it loads, run a callback with it.
 
- 	var boringConfig = require('bording-config')
+## Example
+
+	var boringConfig = require('bording-config');
+
 	boringConfig.loadConfig('config.cson', function(config){
 		console.log('Config is', config)
-	}{
+	}
+
+
 
 Simple.
