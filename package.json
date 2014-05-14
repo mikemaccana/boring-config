@@ -1,0 +1,23 @@
+{
+  "name": "boring-config",
+  "version": "0.1.0",
+  "author": "Mike MacCana <mike.maccana@gmail.com>",
+  "description": "Load a CSON config file",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikemaccana/boring-config.git"
+  },
+  "keywords": [
+    "config",
+    "cson",
+    "config file"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
