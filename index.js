@@ -1,6 +1,6 @@
 'use strict';
 
-var CSON = require('CSON'),
+var CSON = require('cson'),
   fs = require('fs'),
   process = require('process'),
   log = console.log.bind(console),
