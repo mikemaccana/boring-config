@@ -2,18 +2,13 @@
 
 [CSON](https://github.com/bevry/cson) is great for config files, with less unnecessary tokens than JSON and more consistency than YAML.
 
- - Load a CSON config file
- - If it fails, bail.
- - If it loads, run a callback with it.
+Boring config loads a config file. It's deliberately sync - there's no point loading your app until its config file has been run.
+
 
 ## Example
 
 	var boringConfig = require('bording-config');
 
-	boringConfig.loadConfig('config.cson', function(config){
-		console.log('Config is', config)
-	}
-
-
+	var config = boringConfig(__dirname + '/config.cson')
 
 Simple.
