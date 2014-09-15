@@ -1,7 +1,6 @@
 'use strict';
 
 var CSON = require('cson'),
-  process = require('process'),
   log = console.log.bind(console),
   DEFAULT_CONFIG_FILE = 'config.cson';
 
