@@ -1,6 +1,6 @@
 {
   "name": "boring-config",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Mike MacCana <mike.maccana@gmail.com>",
   "description": "Load a CSON config file",
   "scripts": {},
