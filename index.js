@@ -6,10 +6,8 @@ var CSON = require('cson'),
 
 var loadConfig = function(configFileName) {
   configFileName = configFileName || DEFAULT_CONFIG_FILE;
-  log('Loading', configFileName)
   var config = CSON.parseFileSync(configFileName)
   config.isProduction = ( process.env.NODE_ENV === 'production' );
-  log('Running as :', config.isProduction ? 'production': 'development')
   return config;
 }
 
